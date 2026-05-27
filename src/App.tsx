@@ -90,7 +90,7 @@ const App: React.FC = () => {
     },
     {
       category: "Tools",
-      items: ["Git", "GitHub"],
+      items: ["Git", "GitHub", "Linux"],
       color: "violet"
     }
   ];
@@ -140,8 +140,7 @@ const App: React.FC = () => {
             </h2>
             
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mb-12 font-light leading-relaxed">
-              I build scalable web applications and modern digital experiences. 
-              Passionate about clean code, innovative solutions, and turning complex ideas into elegant products.
+              Who is driven by results and problem-solving. I build end-to-end web applications, covering UI, backend, and deployment. I focus on finding the shortest path to an effective solution.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -280,7 +279,7 @@ const App: React.FC = () => {
           </h2>
           
           <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-            Available for freelance projects, collaborations, and full-time opportunities.
+            Looking for my first full-time role or internship to bring value to a development team.
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 mb-16">
@@ -309,7 +308,7 @@ const App: React.FC = () => {
           {/* Footer */}
           <div className="border-t border-zinc-800 pt-8">
             <p className="text-gray-600 font-mono text-sm">
-              © 2024 — Designed & Built with React, TypeScript & Tailwind CSS
+              © 2026 — Designed & Built with React, TypeScript & Tailwind CSS
             </p>
           </div>
         </div>
