@@ -151,19 +151,8 @@ const App: React.FC = () => {
               finding the shortest path to an effective solution.
             </p>
 
-            <div className="flex flex-wrap gap-4">
-              <button className="group relative px-8 py-4 bg-cyan-500 text-black font-bold rounded-none overflow-hidden transition-all hover:scale-105">
-                <span className="relative z-10">View Projects</span>
-                <div className="absolute inset-0 bg-linear-to-r from-cyan-400 to-blue-500 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-              </button>
-
-              <button className="px-8 py-4 border-2 border-cyan-500 text-cyan-500 font-bold rounded-none hover:bg-cyan-500 hover:text-black transition-all hover:scale-105">
-                Get in Touch
-              </button>
-            </div>
-
             {/* Scroll indicator */}
-            <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <div className="absolute bottom- left-1/2 transform -translate-x-1/2 animate-bounce">
               <div className="w-6 h-10 border-2 border-cyan-500 rounded-full flex items-start justify-center p-2">
                 <div className="w-1 h-3 bg-cyan-500 rounded-full animate-pulse" />
               </div>
